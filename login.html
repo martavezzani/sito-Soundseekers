@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Soundseekers - Login</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header> 
+            <i class="fa-solid fa-gear"></i>
+            <h1>Soundseekers</h1>
+            <nav>
+                <ul>
+                    <li><a class="whitelink nounderline" href="index.html">Homepage</a></li>
+                    <li><a class="whitelink nounderline" href="guida.html">Guida</a></li>
+                    <li><a class="whitelink nounderline" href="bacheca.html">Bacheca</a></li>
+                    <li><a class="whitelink nounderline" href="chisiamo.html">Chi siamo</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="action_page.php" method="post">
+                <div class="container">
+                    <h2>Accedi al tuo account</h2>
+                    <label for="email">
+                        <b>Email</b>
+                    </label>
+                    <input type="text" placeholder="nome@esempio.com" required="">
+                    <label for="psw">
+                        <b>Password</b>
+                    </label>
+                    <input type="password" placeholder="Inserisci password" id="psw" required="">
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember">Ricordami
+                    </label>
+                    <button class="loginbtn" type="button">Accedi</button>
+                    <p id="info">E se non sei ancora iscritto, <a class="link" href="iscriviti.html">crea un nuovo account</a> . </p>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>

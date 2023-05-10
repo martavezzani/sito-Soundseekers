@@ -1,0 +1,113 @@
+body {
+    margin: 0px !important;   
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0px !important;
+    }
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    }
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    font-family: 'Noto Serif Thai', serif;  
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+header {
+    text-align: center;
+    background-color: #E8F0CC;
+    color: #C269E0;
+}
+
+.active {
+    color:#E8F0CC;
+    background-color: #C269E0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.nounderline {
+    text-decoration: none;
+    padding: 10px 10px 0px 10px;
+}
+
+.purplelink {
+    color:rebeccapurple;
+}
+
+#homepageimg {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    text-align: center;
+    color:black;
+    background-color: #E8F0CC;
+}
+
+#cardimg {
+    height: 150px; 
+    width: auto;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card {
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.card-text {
+    font-family: 'Noto Serif Thai', serif;
+}
+
+.button {
+    color:#E8F0CC;
+    background-color: #C269E0;
+    border-radius: 15px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    padding: 15px;
+    min-height: 30px; 
+    min-width: 120px;
+}
+
+.button:hover {
+    color:black;
+    background-color: #C269E0;
+    transition: 1s;
+}
+
+.form-control {
+    font-family: 'Oswald', sans-serif; 
+}
+
+.button_annunci {
+    color:#E8F0CC;
+    background-color: #B0C489;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    padding: 8px;
+    min-height: 30px; 
+    min-width: 120px;
+}
+
+.profileimg {
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+  }
+

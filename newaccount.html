@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Soundseekers - Login</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header> 
+            <i class="fa-solid fa-gear"></i>
+            <h1>Soundseekers</h1>
+            <nav>
+                <ul>
+                    <li><a class="whitelink nounderline" href="index.html">Homepage</a></li>
+                    <li><a class="whitelink nounderline" href="guida.html">Guida all'uso</a></li>
+                    <li><a class="whitelink nounderline" href="bacheca.html">Bacheca</a></li>
+                    <li><a class="whitelink nounderline" href="forum.html">Forum</a></li>
+                    <li><a class="whitelink nounderline" href="chisiamo.html">Chi siamo</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="action_page.php">
+                <div class="container">
+                    <h2>Crea un nuovo account</h2>
+                </div>
+                <br/>
+                <div class="imgcontainer">
+    				<img class="profileimg" src="C:\Users\vezza\Downloads\swc32gru.png" alt="Avatar" class="avatar">
+                    <br/>
+    				<a class="owngallery" href="#">Carica una tua foto</a>
+    			</div>
+                <br/>
+                <form action="action_page.php" method="post">
+
+                    <div class="form-row">
+                    <label for="inputemail">Nome e Cognome</label>
+                        <input type="namesurname" class="form-control" id="inputnamesurname" placeholder="Name and Surname">
+                    </div>
+                    <div class="form-row">
+                        <label for="inputdate">Data di nascita</label>
+                        <input type="date" class="form-control text-muted" id="inputdate" placeholder="ggg/mmm/aaa">
+                    </div>
+                    <div class="form-row">
+                        <label for="inputaboutu">Parlaci di te!</label>
+                        <textarea class="form-control" rows="2" placeholder="..."></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label for="inputemail">Email</label>
+                        <input type="email" class="form-control" id="inputemail" placeholder="utente@email.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="inputpsw">Password</label>
+                        <input type="password" class="form-control" id="inputpsw" placeholder="...">
+                    </div>
+                    <p> <a class="button_annunci" href="#">Iscriviti</a> </p>
+            </form>
+        </main>
+    </body>
+</html>
