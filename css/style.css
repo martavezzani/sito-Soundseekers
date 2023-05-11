@@ -57,9 +57,9 @@ header {
     background-color: #E8F0CC;
 }
 
-#cardimg {
-    height: 150px; 
-    width: auto;
+#cardimg1, #cardimg2, #cardimg3, #cardimg4, #cardimg5, #cardimg6, #cardimg7, #cardimg8, #cardimg9, #cardimg10, #cardimg11, #cardimg12 {
+    height: auto; 
+    width: 100%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
